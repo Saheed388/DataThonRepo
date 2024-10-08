@@ -122,68 +122,7 @@ footer p {
 }
 
 
-/* iPad and Tablet Styles */
-@media (min-width: 601px) and (max-width: 1024px) {
-  body {
-    padding: 0 16px; /* Standard padding for tablets */
-  }
 
-  header {
-    padding: 20px 30px; /* Adjusted padding for tablets */
-  }
-
-  header h1 {
-    font-size: 2em; /* Larger font size for iPad */
-  }
-
-  img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  h2 {
-    padding-top: 40px; /* Adjusted padding for tablets */
-    font-size: 1.5em; /* Responsive font size for iPad */
-  }
-
-  .dash-board {
-    padding: 15px; /* Padding adjustment for tablets */
-  }
-
-  .custom-dropdown {
-    max-width: 70%; /* Max width for tablets */
-    margin: 15px auto; /* Centered with adjusted margin */
- }
-
-  .button {
-    width: 100%; /* Full width */
-    max-width: 400px; /* Limit width for larger screens */
-    margin: 15px auto; /* Centered with adjusted margin */
-  }
-
-  footer {
-    text-align: center; /* Center text in footer */
-    width: 100%; /* Full width */
-    height: 100px; /* Adjust height for tablets */
-    background-color: #3C3D37; /* Footer background color */
-  }
-
-  footer p {
-    font-size: 1em; /* Slightly larger font size for tablets */
-    color: #ccc; /* Text color for footer */
-  }
-
-  .drop-down-container {
-    margin: 30px 0; /* Increased outer margin for tablets */
-    padding: 15px; /* Adjusted inner padding for tablets */
-    position: relative;
-    left: 100px;
-  }
-
-  .success-message {
-    font-size: 1em; /* Adjusted font size for tablets */
-  }
-}
 /* Mobile Styles */
 /* Mobile Styles */
 @media (max-width: 600px) {

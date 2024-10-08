@@ -48,7 +48,7 @@ h2 {
 
 .custom-dropdown {
   width: 100%; /* Full width for responsiveness */
-  max-width: 400px; /* Maximum width */
+  max-width: 500px; /* Maximum width */
   margin: 20px auto; /* Increased margin for more space around the dropdown */
   border-radius: 20px;
   border: #f5ba13 5px solid;
@@ -99,7 +99,7 @@ footer p {
 
 .drop-down-container {
   display: grid;
-  grid-template-columns: 1fr; /* Single column layout */
+  grid-template-columns: auto, auto, auto; /* Single column layout */
   margin: 50px; /* Optional: outer margin for the container */
   padding: 20px; /* Optional: inner padding for the container */
   gap: 20px; /* Space between items in the grid */
@@ -107,9 +107,10 @@ footer p {
 
 .custom-dropdown {
   width: 100%; /* Full width for responsiveness */
-  max-width: 400px; /* Maximum width */
+  max-width: 600px; /* Maximum width */
   border-radius: 20px; /* Rounded corners */
   border: #f5ba13 5px solid; /* Dropdown border */
+  gap: 20px;
 }
 
 /* Additional styles as needed */

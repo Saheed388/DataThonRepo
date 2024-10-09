@@ -159,7 +159,8 @@ footer p {
     width: 100%; /* Full width for responsiveness */
     max-width: 90%; /* Max width for mobile */
     margin: 10px auto; /* Centered with reduced margin */
-    
+    position: absolute;    
+    left: 10px;
   }
 
   .button {

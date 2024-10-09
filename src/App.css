@@ -46,13 +46,7 @@ h2 {
   padding: 20px;
 }
 
-.custom-dropdown {
-  width: 100%; /* Full width for responsiveness */
-  max-width: 400px; /* Maximum width */
-  margin: 20px auto; /* Increased margin for more space around the dropdown */
-  border-radius: 20px;
-  border: #f5ba13 5px solid;
-}
+
 
 /* Add padding to each dropdown for inner spacing */
 .custom-dropdown .MuiSelect-root {
@@ -107,10 +101,11 @@ footer p {
 
 .custom-dropdown {
   width: 100%; /* Full width for responsiveness */
-  max-width: 400px; /* Maximum width */
+  max-width: 600px; /* Maximum width */
   border-radius: 20px; /* Rounded corners */
   border: #f5ba13 5px solid; /* Dropdown border */
 }
+
 
 /* Additional styles as needed */
 

@@ -183,7 +183,7 @@ footer p {
     font-size: 0.9em; /* Slightly smaller font size for mobile */
     color: #ccc; /* Text color for footer */
     position: absolute;
-    left: 100px;
+    left: 150px;
   }
 
   .drop-down-container {

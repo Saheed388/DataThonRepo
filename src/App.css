@@ -48,7 +48,7 @@ h2 {
 
 .custom-dropdown {
   width: 100%; /* Full width for responsiveness */
-  max-width: 500px; /* Maximum width */
+  max-width: 400px; /* Maximum width */
   margin: 20px auto; /* Increased margin for more space around the dropdown */
   border-radius: 20px;
   border: #f5ba13 5px solid;
@@ -97,28 +97,20 @@ footer p {
   color: #ccc;
 }
 
-
-.custom-dropdown {
-  width: 100%; /* Full width for responsiveness */
-  max-width: 600px; /* Maximum width */
-  border-radius: 20px; /* Rounded corners */
-  border: #f5ba13 5px solid; /* Dropdown border */
-  gap: 20px;
-}
-
 .drop-down-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto, auto, auto; /* Single column layout */
   margin: 50px; /* Optional: outer margin for the container */
   padding: 20px; /* Optional: inner padding for the container */
   gap: 20px; /* Space between items in the grid */
 }
 
-
-
-
-
+.custom-dropdown {
+  width: 100%; /* Full width for responsiveness */
+  max-width: 400px; /* Maximum width */
+  border-radius: 20px; /* Rounded corners */
+  border: #f5ba13 5px solid; /* Dropdown border */
+}
 
 /* Additional styles as needed */
 

@@ -13,7 +13,7 @@ function Dashboard() {
         allowFullScreen={true}
       ></iframe>
 
-      <h2> Small Note on the Analysis and the insight on the dashboard</h2>
+      {/* <h2> Small Note on the Analysis and the insight on the dashboard</h2> */}
     </div>
   );
 }

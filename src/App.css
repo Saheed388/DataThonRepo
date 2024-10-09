@@ -91,6 +91,13 @@ footer p {
   color: #ccc;
 }
 
+
+.drop-down-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
 .drop-down-container {
   display: grid;
   grid-template-columns: auto, auto, auto; /* Single column layout */
@@ -100,17 +107,13 @@ footer p {
 }
 
 .custom-dropdown {
-  width: 100%; /* Full width for responsiveness */
-  max-width: 600px; /* Maximum width */
+  position: absolute;
+  width: 800px; /* Maximum width */
   border-radius: 20px; /* Rounded corners */
   border: #f5ba13 5px solid; /* Dropdown border */
+  left: 200px;
 }
 
-.drop-down-container{
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-}
 
 /* Additional styles as needed */
 

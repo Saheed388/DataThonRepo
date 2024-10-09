@@ -182,9 +182,8 @@ footer p {
   footer p {
     font-size: 0.9em; /* Slightly smaller font size for mobile */
     color: #ccc; /* Text color for footer */
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    position: absolute;
+    left: 100px;
   }
 
   .drop-down-container {

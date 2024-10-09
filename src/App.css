@@ -107,8 +107,9 @@ footer p {
 }
 
 .drop-down-container {
-  display: grid;
-  grid-template-columns: auto, auto, auto; /* Single column layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 50px; /* Optional: outer margin for the container */
   padding: 20px; /* Optional: inner padding for the container */
   gap: 20px; /* Space between items in the grid */

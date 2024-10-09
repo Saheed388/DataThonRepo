@@ -97,13 +97,6 @@ footer p {
   color: #ccc;
 }
 
-.drop-down-container {
-  display: grid;
-  grid-template-columns: auto, auto, auto; /* Single column layout */
-  margin: 50px; /* Optional: outer margin for the container */
-  padding: 20px; /* Optional: inner padding for the container */
-  gap: 20px; /* Space between items in the grid */
-}
 
 .custom-dropdown {
   width: 100%; /* Full width for responsiveness */
@@ -112,6 +105,19 @@ footer p {
   border: #f5ba13 5px solid; /* Dropdown border */
   gap: 20px;
 }
+
+.drop-down-container {
+  display: grid;
+  grid-template-columns: auto, auto, auto; /* Single column layout */
+  margin: 50px; /* Optional: outer margin for the container */
+  padding: 20px; /* Optional: inner padding for the container */
+  gap: 20px; /* Space between items in the grid */
+}
+
+
+
+
+
 
 /* Additional styles as needed */
 
